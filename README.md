@@ -1,10 +1,10 @@
-# tokio-openssl
+# tokio-tongsuo
 
-An implementation of SSL streams for Tokio built on top of the [`openssl` crate]
+An implementation of SSL streams for Tokio built on top of the [`tongsuo` crate]
 
-[Documentation](https://docs.rs/tokio-openssl)
+[`tongsuo` crate]: https://github.com/zh-jq/rust-tongsuo
 
-[`openssl` crate]: https://github.com/sfackler/rust-openssl
+, based on [tokio-openssl](https://github.com/tokio-rs/tokio-openssl).
 
 # License
 

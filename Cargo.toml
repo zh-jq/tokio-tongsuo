@@ -1,6 +1,6 @@
 [package]
 name = "tokio-tongsuo"
-version = "0.6.3"
+version = "0.6.4"
 license = "MIT/Apache-2.0"
 edition = "2018"
 repository = "https://github.com/zh-jq/tokio-tongsuo"
@@ -10,7 +10,7 @@ An implementation of SSL streams for Tokio backed by Tongsuo/OpenSSL
 
 [dependencies]
 futures-util = { version = "0.3", default-features = false }
-openssl = { package = "tongsuo", version = "0.10.32" }
+openssl = { package = "tongsuo", version = "0.10.32", default-features = false }
 openssl-sys = { package = "tongsuo-sys", version =  "0.9" }
 tokio = "1.0"
 

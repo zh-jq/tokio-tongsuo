@@ -2,7 +2,7 @@
 name = "tokio-tongsuo"
 version = "0.6.5"
 license = "MIT/Apache-2.0"
-edition = "2018"
+edition = "2021"
 repository = "https://github.com/zh-jq/tokio-tongsuo"
 description = """
 An implementation of SSL streams for Tokio backed by Tongsuo/OpenSSL
